@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<defs>
+		<filter id="flt1"> <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0   0 0 0 1 0" /> </filter>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M19,3c0.26,0 0.52,0.05 0.77,0.15c0.24,0.1 0.46,0.25 0.65,0.43c0.19,0.19 0.33,0.41 0.43,0.65c0.1,0.24 0.15,0.5 0.15,0.77v14c0,0.26 -0.05,0.52 -0.15,0.77c-0.1,0.24 -0.25,0.46 -0.43,0.65c-0.19,0.19 -0.41,0.33 -0.65,0.43c-0.24,0.1 -0.5,0.15 -0.77,0.15h-14c-0.26,0 -0.52,-0.05 -0.77,-0.15c-0.24,-0.1 -0.46,-0.25 -0.65,-0.43c-0.19,-0.19 -0.33,-0.41 -0.43,-0.65c-0.1,-0.24 -0.15,-0.5 -0.15,-0.77l0,-14c0,-0.26 0.05,-0.52 0.15,-0.77c0.1,-0.24 0.25,-0.46 0.43,-0.65c0.19,-0.19 0.41,-0.33 0.65,-0.43c0.24,-0.1 0.5,-0.15 0.77,-0.15zM19,8l-1.41,-1.42l-7.59,7.59l-3.59,-3.58l-1.41,1.41l5,5z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { filter: url(#flt1);fill: #000000 } 
+		.shp1 { fill: #ffffff } 
+	</style>
+	<path id="Shape 7" class="shp0" d="M4,20h16v-16h-16z" />
+	<g id="Layer">
+		<g id="Clip-Path" clip-path="url(#cp1)">
+			<g id="Layer">
+				<path id="Layer" class="shp1" d="M0,24h24v-24h-24z" />
+			</g>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,776 @@
+@font-face {
+	font-family: "Open Sans";
+	src: url("fonts/opensans-regular.ttf");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("fonts/opensans-semibold.ttf");
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "Dosis";
+	src: url("fonts/dosis-bold.ttf");
+	font-weight: 700;
+}
+
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: #fff;
+  background-color: #000;
+}
+
+
+header, #about-section, #about-us {
+  margin-bottom: 120px;
+}
+
+
+h4 {
+  font-family: "Dosis";
+  font-weight: 700;
+  font-size: 2em;
+  padding: 32px 0;
+}
+
+
+.highlight {
+  background-color: #000;
+  box-shadow: 0.2em 0 0 #000, -0.2em 0 0 #000;
+}
+
+
+
+  main {
+    width: 84.72%;
+    max-width: 1220px;
+    margin: auto;
+		display: -webkit-box; 		/* OLD - iOS 6-, Safari 3.1-6 */
+		display: -moz-box;				/* OLD - Firefox 19 */
+		display: -ms-flexbox;			/* TWEENER - IE 10 */
+		display: -webkit-flex;		/* NEW - Chrome */
+		display: flex;						/* NEW, Spec - Opera 12.1, Firefox 20+ */
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+  }
+
+    #bg-video {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 656px;
+      height: 723px;
+      overflow: hidden;
+    }
+
+      #bg-video video {
+        min-width: 100%;
+        height: 100%;
+      }
+
+			#bg-video video[poster] {
+				min-width: 100%;
+        height: 100%;
+			}
+
+    header {
+      z-index: 100;
+			display: -webkit-box;
+			display: -moz-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			-webkit-box-align: start;
+			-ms-flex-align: start;
+			-ms-grid-row-align: flex-start;
+			align-items: flex-start;
+    }
+
+      #logo {
+        margin: 56px 0 64px 0;
+      }
+
+      h1 {
+        font-family: "Dosis";
+        font-weight: 700;
+        font-size: 4em;
+        max-width: 900px;
+      }
+
+      #signup-split {
+        display: flex;
+        margin-top: 65px;
+      }
+
+        .signup-box {
+          width: 250px;
+					display: -webkit-box;
+					display: -moz-box;
+					display: -ms-flexbox;
+					display: -webkit-flex;
+					display: flex;
+					-webkit-box-orient: vertical;
+					-webkit-box-direction: normal;
+					-ms-flex-direction: column;
+					flex-direction: column;
+					-webkit-box-align: start;
+					-ms-flex-align: start;
+					-ms-grid-row-align: flex-start;
+					align-items: flex-start;
+          margin-right: 32px;
+        }
+
+          .signup-box h2 {
+            font-family: "Dosis";
+            font-weight: 700;
+            font-size: 2em;
+            margin-bottom: 32px;
+          }
+
+          .signup-box p, .signup-link {
+            line-height: 1.5;
+            color: #fff;
+          }
+
+          .signup-link {
+            font-weight: 600;
+          }
+
+          .signup-link:hover {
+            color: #ff5151;
+          }
+
+          .signup-button {
+            width: 250px;
+            height: 48px;
+            margin-top: 33px;
+            border-radius: 3px;
+            border: 1px solid #ff5151;
+            padding: 10px 16px 10px 16px;
+            color: #fff;
+            text-decoration: none;
+            font-family: "Dosis";
+            font-weight: 700;
+            font-size: 1.13em;
+            background-image: url(/media/icon-next.svg);
+            background-repeat: no-repeat;
+            background-position: 94% 50%;
+          }
+
+          .not-selected:hover {
+            background-color: #ff5151;
+          }
+
+          .selected {
+            background-color: #ff5151;
+          }
+
+          .selected:hover {
+            background-color: #EB3D3D;
+          }
+
+
+    #about-section {
+			display: -webkit-box;
+			display: -moz-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+			flex-direction: column;
+      position: relative;
+    }
+
+      #about-cover {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+        #about-cover img {
+          width: 1220px;
+          height: 342px;
+					-o-object-fit: cover;
+					object-fit: cover;
+        }
+
+      #about-content {
+        width: 100%;
+        margin-top: 270px;
+        z-index: 1000;
+				display: -webkit-box;
+				display: -moz-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-box-pack: center;
+				-ms-flex-pack: center;
+				justify-content: center;
+				-webkit-box-align: start;
+				-ms-flex-align: start;
+				-ms-grid-row-align: flex-start;
+				align-items: flex-start;
+      }
+
+            #about-content h3 {
+              font-family: "Dosis";
+              font-weight: 700;
+              font-size: 4.5em;
+              text-align: right;
+              max-width: 316px;
+            }
+
+
+            #about-text {
+              max-width: 495px;
+							display: -webkit-box;
+							display: -moz-box;
+							display: -ms-flexbox;
+							display: -webkit-flex;
+							display: flex;
+							-webkit-box-orient: vertical;
+							-webkit-box-direction: normal;
+							-ms-flex-direction: column;
+							flex-direction: column;
+              background-color: #000;
+              margin-left: 40px;
+              padding: 32px;
+              line-height: 1.5;
+            }
+
+              #about-text p:first-child {
+                margin-bottom: 24px;
+              }
+
+
+            .store-icons {
+							display: -webkit-box;
+							display: -moz-box;
+							display: -ms-flexbox;
+							display: -webkit-flex;
+							display: flex;
+              margin-left: 72px;
+            }
+
+              .store-icons a {
+                width: 135px;
+                height: 40px;
+              }
+
+              .store-icons a:not(:last-child) {
+                margin-right: 9px;
+              }
+
+              .app-store {
+                  background-image: url(/media/icon-app-store.svg);
+                  background-repeat: no-repeat;
+                }
+
+              .google-play {
+                background-image: url(/media/icon-google-play.svg);
+                background-repeat: no-repeat;
+              }
+
+              .app-store:hover, .google-play:hover {
+                opacity: 0.8;
+								-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+              }
+
+
+    #about-us {
+      width: 100%;
+			display: -webkit-box;
+			display: -moz-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-pack: justify;
+			-ms-flex-pack: justify;
+			justify-content: space-between;
+    }
+
+      #about-us div {
+        width: 500px;
+				display: -webkit-box;
+				display: -moz-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-box-orient: vertical;
+				-webkit-box-direction: normal;
+				-ms-flex-direction: column;
+				flex-direction: column;
+				-webkit-box-align: start;
+				-ms-flex-align: start;
+				-ms-grid-row-align: flex-start;
+				align-items: flex-start;
+      }
+
+      #about-us div:nth-of-type(odd) {
+        margin-right: 96px;
+      }
+
+
+        #about-us span {
+          width: 70px;
+          height: 42px;
+        }
+
+        #icon-about-team {
+          background-image: url("/media/icon-about-team.svg");
+          background-repeat: no-repeat;
+        }
+
+        #icon-join-team {
+          background-image: url("/media/icon-join-team.svg");
+          background-repeat: no-repeat;
+        }
+
+        #about-us p {
+          line-height: 1.5;
+          margin-bottom: auto;
+        }
+
+        #about-us a {
+          margin-top: auto;
+          margin-top: 24px;
+          font-family: "Dosis";
+          font-weight: 700;
+          font-size: 1.13em;
+          text-decoration: none;
+          color: #0e6ddc;
+        }
+
+        #about-us a::after {
+          content: ">";
+          padding-left: 9px;
+        }
+
+        #about-us a:hover {
+          color: #ff5151;
+        }
+
+
+    footer {
+			display: -webkit-box;
+			display: -moz-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+    	-ms-flex-direction: column;
+			flex-direction: column;
+      background-color: #161616;
+    }
+
+      footer > div {
+        width: 84.72%;
+        max-width: 1220px;
+        margin: auto;
+      }
+
+      #footer-download {
+				display: -webkit-box;
+				display: -moz-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-box-pack: justify;
+				-ms-flex-pack: justify;
+				justify-content: space-between;
+				-webkit-box-align: center;
+    		-ms-flex-align: center;
+				-ms-grid-row-align: center;
+				align-items: center;
+        padding: 17px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      }
+
+      #footer-info {
+				display: -webkit-box;
+				display: -moz-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-box-pack: justify;
+				-ms-flex-pack: justify;
+				justify-content: space-between;
+				-webkit-box-align: center;
+    		-ms-flex-align: center;
+				-ms-grid-row-align: center;
+				align-items: center;
+        padding: 55px 0 52px 0;
+      }
+
+
+      #footer-info > div:not(:last-child) {
+        margin-right: 48px;
+      }
+
+        #footer-right {
+					display: -webkit-box;
+					display: -moz-box;
+					display: -ms-flexbox;
+					display: -webkit-flex;
+					display: flex;
+					-webkit-box-pack: end;
+					-ms-flex-pack: end;
+					justify-content: flex-end;
+					-webkit-box-align: center;
+	    		-ms-flex-align: center;
+					-ms-grid-row-align: center;
+					align-items: center;
+        }
+
+          #footer-links {
+            margin-right: 48px;
+          }
+
+              #footer-links li {
+                display: inline-block;
+              }
+
+              #footer-links li:not(:last-child) {
+                margin-right: 8px;
+              }
+
+              #footer-links li:not(:last-child)::after {
+                content: "•";
+                padding-left: 8px;
+              }
+
+                #footer-links a {
+                  color: #fff;
+                  text-decoration: none;
+                }
+
+                #footer-links a:hover {
+                  text-decoration: underline;
+                }
+
+
+            #social-icons a {
+              display: inline-block;
+              width: 32px;
+              height: 32px;
+            }
+
+            #social-icons a:hover {
+              opacity: 0.6;
+							-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+            }
+
+            #social-icons a:not(:last-child) {
+              margin-right: 12px;
+            }
+
+            #linkedin {
+              background-image: url(/media/icon-linkedin.svg);
+            }
+
+            #facebook {
+              background-image: url(/media/icon-facebook.svg);
+            }
+
+            #twitter {
+              background-image: url(/media/icon-twitter.svg);
+            }
+
+            #instagram {
+              background-image: url(/media/icon-instagram.svg);
+            }
+
+
+
+@media screen and (max-width: 1440px) {
+h4 {
+  font-size: 1.5em;
+}
+
+
+      #logo {
+        height: 120px;
+				margin: 40px 0 48px 0;
+      }
+
+
+      h1 {
+        font-size: 3em;
+        max-width: 700px;
+      }
+
+
+          .signup-box h2 {
+            font-size: 1.5em;
+          }
+
+
+            #about-content h3 {
+              font-size: 3.5em;
+            }
+
+
+              #social-icons a:not(:last-child) {
+                margin-right: 4px;
+              }
+
+
+          #footer-links {
+            margin-right: 24px;
+          }
+}
+
+
+@media screen and (max-width: 1200px) {
+body {
+  position: relative;
+}
+
+
+.no-highlight {
+		background-color: transparent;
+		box-shadow: none;
+}
+
+
+  main {
+    position: initial;
+  }
+
+
+    #bg-video {
+      width: 100%;
+			height: 620px;
+    }
+
+			#bg-video video {
+				height: 620px;
+				background-color: #000;
+				opacity: 0.5;
+				-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+				-o-object-fit: cover;
+				object-fit: cover;
+			}
+
+			#bg-video video[poster] {
+				width: 100%;
+				background-color: #000;
+				opacity: 0.5;
+				-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+			}
+
+
+      #footer-info {
+				-webkit-box-orient: vertical;
+				-webkit-box-direction: reverse;
+    		-ms-flex-direction: column-reverse;
+				flex-direction: column-reverse;
+				-webkit-box-align: start;
+    		-ms-flex-align: start;
+        -ms-grid-row-align: flex-start;
+				align-items: flex-start;
+      }
+
+
+        #footer-right {
+					-webkit-box-orient: vertical;
+					-webkit-box-direction: normal;
+    			-ms-flex-direction: column;
+					flex-direction: column;
+					-webkit-box-align: start;
+	    		-ms-flex-align: start;
+	        -ms-grid-row-align: flex-start;
+					align-items: flex-start;
+        }
+
+
+          #footer-links {
+            margin-right: 0;
+          }
+
+
+            #social-icons {
+              margin: 24px 0;
+            }
+}
+
+
+@media screen and (max-width: 900px) {
+    #bg-video {
+      height: 600px;
+    }
+
+
+      h1 {
+        font-size: 2em;
+        max-width: 400px;
+      }
+
+
+      #about-content {
+				-webkit-box-orient: vertical;
+				-webkit-box-direction: normal;
+				-ms-flex-direction: column;
+				flex-direction: column;
+				-webkit-box-pack: start;
+    		-ms-flex-pack: start;
+				justify-content: flex-start;
+				-ms-flex-line-pack: start;
+				align-content: flex-start;
+      }
+
+
+        #about-content h3 {
+          text-align: left;
+          font-size: 2em;
+          max-width: 141px;
+        }
+
+
+        #about-text {
+          margin-left: 0;
+          padding-left: 0;
+        }
+
+
+        .store-icons {
+          margin-left: 0;
+        }
+
+
+      #footer-download {
+				-webkit-box-orient: vertical;
+				-webkit-box-direction: normal;
+				-ms-flex-direction: column;
+				flex-direction: column;
+				-webkit-box-align: start;
+    		-ms-flex-align: start;
+        -ms-grid-row-align: flex-start;
+				align-items: flex-start;
+      }
+
+
+        #footer-download h4 {
+          max-width: 233px;
+        }
+
+
+        #footer-download .store-icons {
+          margin-bottom: 32px;
+        }
+}
+
+
+@media screen and (max-width: 600px) {
+h4 {
+  padding: 24px 0;
+}
+
+
+header, #about-section, #about-us {
+  margin-bottom: 60px;
+}
+
+
+    #bg-video {
+      height: 317px;
+    }
+
+
+      #logo {
+        height: 100px;
+        margin: 24px 0 32px 0;
+      }
+
+
+      h1 {
+        max-width: 380px;
+      }
+
+
+      #signup-split {
+        margin-top: 32px;
+				-webkit-box-orient: vertical;
+				-webkit-box-direction: normal;
+				-ms-flex-direction: column;
+				flex-direction: column;
+      }
+
+
+          .signup-box:first-child {
+            margin-bottom: 40px;
+          }
+
+
+          .signup-button {
+            margin-top: 24px;
+          }
+
+
+    #about-us {
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+			flex-direction: column;
+    }
+
+
+      #about-us div {
+        width: 100%;
+      }
+
+
+      #about-us div:nth-of-type(odd) {
+        margin-right: 0;
+      }
+
+
+      #about-us div:not(:last-child) {
+        margin-bottom: 32px;
+      }
+
+
+        #about-us span {
+          height: 32px;
+          width: 54px;
+        }
+
+
+        #icon-about-team {
+          background-size: 54px 32px;
+        }
+
+
+        #icon-join-team {
+          background-size: 46px 32px;
+        }
+
+
+              #footer-links li {
+                display: block;
+              }
+
+
+              #footer-links li:not(:last-child) {
+                padding-bottom: 16px;
+              }
+
+
+              #footer-links li:not(:last-child)::after {
+                content: "";
+              }
+}

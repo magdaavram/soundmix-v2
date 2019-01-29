@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Soundmix for DJs</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/styles/css-reset.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/dj.css" />
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+
+    <meta property="og:url" content="http://soundmix.live/dj" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Soundmix for DJs" />
+    <meta property="og:description" content="Expand your community and monetize your content without
+                                            worrying about the music copyright clearance." />
+    <meta property="og:image" content="media/cover-share.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@soundmix_live" />
+    <meta name="twitter:title" content="Soundmix for DJs" />
+    <meta name="twitter:description" content="Expand your community and monetize your content without
+                                            worrying about the music copyright clearance."/>
+    <meta name="twitter:image" content="media/cover-share.jpg" />
+  </head>
+
+  <body>
+    <nav>
+      <a href="http://www.soundmix.live/"><img id="logo" src="/media/logotype.svg" alt="Soundmix Logo"/></a>
+
+      <div id="menu">
+        <ul id="menu-items">
+          <li class="current"><a href="index.html">I'm a DJ</a></li>
+          <li><a href="/event">I'm an Event Organizer</a></li>
+          <li><a href="/fan">I'm a Fan</a></li>
+        </ul>
+
+        <div id="nav-menu" onclick="navDropdown(this)">
+          <div class="nav-bar" id="bar-1"></div>
+          <div class="nav-bar" id="bar-2"></div>
+          <div class="nav-bar" id="bar-3"></div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div id="cover-dj">
+        <img src="/media/cover-dj.png" srcset="/media/cover-dj@2x.png 2x, /media/cover-dj@3x.png 3x" alt="DJ on the mixer" />
+      </div>
+
+      <header>
+        <div id="header-text">
+          <h1>
+            <span class="highlight no-highlight">Pre-register to live stream on Soundmix</span>
+          </h1>
+
+          <p>
+            <span class="highlight no-highlight">For now, we are in a Beta version and only preselected DJs
+              can live stream on Soundmix. Pre-register and we’ll get back to you.</span>
+          </p>
+        </div>
+
+        <div id="header-form">
+          <form id="dj-form">
+            <p>Pre-register</p>
+
+            <div id="dj-name">
+              <div class="form-control name">
+                <input type="text" name="firstname" class="box firstName" id="djfirstname"
+                placeholder="First Name" required />
+              </div>
+
+              <div class="form-control name">
+                <input type="text" name="lastname" class="box lastName" id="djlastname"
+                  placeholder="Last Name" required />
+              </div>
+            </div>
+
+            <div class="form-control">
+              <input type="text" name="userName" class="box" id="djname" placeholder="Username on SoundCloud"
+                required />
+            </div>
+
+            <div class="form-control">
+              <input type="email" name="email" class="box" id="djemail" placeholder="Email address"
+                required />
+            </div>
+
+            <div class="form-control">
+              <input type="tel" name="tel" class="box" id="djtel" placeholder="(optional) Phone" />
+            </div>
+
+            <div class="form-control">
+              <input type="text" name="country" class="box" id="djcountry" placeholder="(optional) Country" />
+            </div>
+
+            <div class="form-control">
+              <input type="text" name="city" class="box" id="djcity" placeholder="(optional) City" />
+            </div>
+
+            <div class="form-control">
+              <div id="checkbox">
+                <input type="checkbox" name="terms" id="terms" required />
+
+                <span for="terms">
+                  I agree with
+                  <a href="/Soundmix-Terms.pdf" target="_blank">Terms of Use</a>
+                  and
+                  <a href="/Soundmix-Privacy-Policy.pdf" target="_blank">Privacy Policy</a>
+                </span>
+              </div>
+            </div>
+
+            <button id="djsignup">Pre-register</button>
+          </form>
+        </div>
+      </header>
+
+      <section id="benefits">
+        <div>
+          <span id="icon-monetize"></span>
+
+          <h2>Monetize your content</h2>
+
+          <p>
+            You can earn money from your live streams based on your audience,
+            the number of viewers or by getting tips from fans.
+          </p>
+        </div>
+
+        <div>
+          <span id="icon-audience"></span>
+
+          <h2>Expand your community</h2>
+
+          <p>
+            Live stream to a global audience on a regular basis, engage your
+            fans, encourage them to follow your channel and they will start to
+            come back over again and again. <br />
+            The cooler your shows are, the more likely is for your community to
+            stand by and reward your work.
+          </p>
+        </div>
+
+        <div>
+          <span id="icon-copyright"></span>
+
+          <h2>Music copyright clearance</h2>
+
+          <p>
+            We’ll handle everything related to clearance of copyrights for the
+            music you're streaming. Now you can focus on just making your shows
+            greater and more engaging.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div id="footer-download">
+        <h4>Download Soundmix Beta Apps</h4>
+
+        <div class="store-icons">
+          <a class="app-store" href="https://itunes.apple.com/us/app/soundmix-app/id1439041185?ls=1&mt=8" target="_blank"></a>
+          <a class="google-play" href="https://play.google.com/store/apps/details?id=live.soundmix" target="_blank"></a>
+        </div>
+      </div>
+
+      <div id="footer-info">
+        <div id="footer-copyright">© 2019 Soundmix. All rights reserved.</div>
+
+        <div id="footer-right">
+          <div id="footer-links">
+            <ul>
+              <li><a href="/jobs#team">About</a></li>
+              <li><a href="#" target="_blank">Terms & Conditions</a></li>
+              <li><a href="#" target="_blank">Privacy Policy</a></li>
+              <li><a href="/jobs">Join our team!</a></li>
+            </ul>
+          </div>
+
+          <div id="social-icons">
+            <a id="linkedin" href="https://www.linkedin.com/company/soundmixlive" target="_blank"></a>
+            <a id="facebook" href="https://www.facebook.com/soundmix.livemusic/" target="_blank"></a>
+            <a id="twitter" href="https://twitter.com/soundmix_live" target="_blank"></a>
+            <a id="instagram" href="https://www.instagram.com/soundmix.livemusic/" target="_blank"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const menu = document.getElementById("menu-items");
+
+      function navDropdown(x) {
+        x.classList.toggle("change");
+
+        if (menu.style.display == "" || menu.style.display == "none") {
+          menu.style.display = "block";
+        } else {
+          menu.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>

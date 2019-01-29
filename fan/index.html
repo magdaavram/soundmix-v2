@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Soundmix | Enjoy live electronic music together with friends</title>
+    <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="/styles/css-reset.css" />
+		<link rel="stylesheet" type="text/css" href="/styles/fan.css" />
+		<link rel="shortcut icon" type="image/png" href="/favicon.png" />
+
+    <meta property="og:url"                content="http://soundmix.live/event" />
+		<meta property="og:type"               content="website" />
+		<meta property="og:title"              content="Soundmix | Enjoy live electronic music together with friends" />
+		<meta property="og:description"        content="Electronic music is awesome when you can enjoy it live,
+                                            together with friends! Soundmix is the first social electronic
+                                            music streaming experience allowing people to connect by
+                                            listening to and interacting about electronic music together." />
+		<meta property="og:image"              content="media/cover-share.jpg" />
+
+		<meta name="twitter:card"              content="summary_large_image" />
+		<meta name="twitter:site"              content="@soundmix_live" />
+		<meta name="twitter:title"             content="Soundmix | Enjoy live electronic music together with friends" />
+		<meta name="twitter:description"       content="Electronic music is awesome when you can enjoy it live,
+                                            together with friends! Soundmix is the first social electronic
+                                            music streaming experience allowing people to connect by
+                                            listening to and interacting about electronic music together." />
+		<meta name="twitter:image"             content="media/cover-share.jpg" />
+  </head>
+
+  <body>
+    <nav>
+      <a href="http://www.soundmix.live/"><img id="logo" src="/media/logotype.svg" alt="Soundmix Logo"></a>
+
+      <div id="menu">
+        <ul id="menu-items">
+          <li><a href="/dj">I'm a DJ</a></li>
+          <li><a href="/event">I'm an Event Organizer</a></li>
+          <li class="current"><a href="index.html">I'm a Fan</a></li>
+        </ul>
+
+        <div id="nav-menu" onclick="navDropdown(this)">
+          <div class="nav-bar" id="bar-1"></div>
+          <div class="nav-bar" id="bar-2"></div>
+          <div class="nav-bar" id="bar-3"></div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div id="cover-fan">
+        <img src="/media/cover-fan.png" srcset="/media/cover-fan@2x.png 2x, /media/cover-fan@3x.png 3x" alt="Fan enjoying a concert">
+      </div>
+
+      <header>
+        <div id="header-text">
+          <h1><span class="highlight no-highlight">Enjoy live electronic music together with friends</span></h1>
+
+          <p><span class="highlight no-highlight">On Soundmix you can watch live streams from DJs and festivals,
+            together with friends. We are in BETA for now, but you can download our apps and start enjoying
+            live events.</span></p>
+
+          <p id="bold">Download Soundmix Beta Apps</p>
+        </div>
+
+        <div class="store-icons">
+          <a class="app-store" href="https://itunes.apple.com/us/app/soundmix-app/id1439041185?ls=1&mt=8" target="_blank"></a>
+          <a class="google-play" href="https://play.google.com/store/apps/details?id=live.soundmix" target="_blank"></a>
+        </div>
+      </div>
+      </header>
+
+      <section id="benefits">
+        <div>
+          <span id="icon-unique"></span>
+
+          <h2>Unique content from your favorite DJs</h2>
+
+          <p>Listen to unique and exclusive shows from DJs and events. Soundmix is the place where you can
+            interact with your favorite performers and show your appreciation instantly.</p>
+        </div>
+
+        <div>
+          <span id="icon-audience"></span>
+
+          <h2>Listen together with friends</h2>
+
+          <p>Enjoy your favorite electronic music live and have fun with your friends, sharing the
+            experiences.</p>
+        </div>
+
+        <div>
+          <span id="icon-connect"></span>
+
+          <h2>Connect with EDM lovers and DJs</h2>
+
+          <p>Express yourself during a live session or show along with a dedicated community. Connect and
+            share your experiences with other electronic music lovers.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div id="footer-download">
+        <h4>Download Soundmix Beta Apps</h4>
+
+        <div class="store-icons">
+          <a class="app-store" href="https://itunes.apple.com/us/app/soundmix-app/id1439041185?ls=1&mt=8" target="_blank"></a>
+          <a class="google-play" href="https://play.google.com/store/apps/details?id=live.soundmix" target="_blank"></a>
+        </div>
+      </div>
+
+      <div id="footer-info">
+        <div id="footer-copyright">
+          © 2019 Soundmix. All rights reserved.
+        </div>
+
+        <div id="footer-right">
+          <div id="footer-links">
+            <ul>
+              <li><a href="/jobs#team">About</a></li>
+              <li><a href="#" target="_blank">Terms & Conditions</a></li>
+              <li><a href="#" target="_blank">Privacy Policy</a></li>
+              <li><a href="/jobs">Join our team!</a></li>
+            </ul>
+          </div>
+
+          <div id="social-icons">
+            <a id="linkedin" href="https://www.linkedin.com/company/soundmixlive" target="_blank"></a>
+            <a id="facebook" href="https://www.facebook.com/soundmix.livemusic/" target="_blank"></a>
+            <a id="twitter" href="https://twitter.com/soundmix_live" target="_blank"></a>
+            <a id="instagram" href="https://www.instagram.com/soundmix.livemusic/" target="_blank"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const menu = document.getElementById("menu-items")
+
+      function navDropdown(x) {
+        x.classList.toggle("change");
+
+        if (menu.style.display == "" || menu.style.display == "none") {
+          menu.style.display = "block";
+        } else {
+          menu.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>

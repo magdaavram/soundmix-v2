@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Soundmix for Events</title>
+    <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="/styles/css-reset.css" />
+		<link rel="stylesheet" type="text/css" href="/styles/event.css" />
+		<link rel="shortcut icon" type="image/png" href="/favicon.png" />
+
+    <meta property="og:url"                content="http://soundmix.live/event" />
+		<meta property="og:type"               content="website" />
+		<meta property="og:title"              content="Soundmix for Events" />
+		<meta property="og:description"        content="Live stream your event to a global audience, reach more
+                                            fans that you would normally do and expand your sales easily." />
+		<meta property="og:image"              content="media/cover-share.jpg" />
+
+		<meta name="twitter:card"              content="summary_large_image" />
+		<meta name="twitter:site"              content="@soundmix_live" />
+		<meta name="twitter:title"             content="Soundmix for Events" />
+		<meta name="twitter:description"       content="Live stream your event to a global audience, reach more
+                                            fans that you would normally do and expand your sales easily." />
+		<meta name="twitter:image"             content="media/cover-share.jpg" />
+  </head>
+
+  <body>
+    <nav>
+      <a href="http://www.soundmix.live/"><img id="logo" src="/media/logotype.svg" alt="Soundmix Logo"></a>
+
+      <div id="menu">
+        <ul id="menu-items">
+          <li><a href="/dj">I'm a DJ</a></li>
+          <li class="current"><a href="index.html">I'm an Event Organizer</a></li>
+          <li><a href="/fan">I'm a Fan</a></li>
+        </ul>
+
+        <div id="nav-menu" onclick="navDropdown(this)">
+          <div class="nav-bar" id="bar-1"></div>
+          <div class="nav-bar" id="bar-2"></div>
+          <div class="nav-bar" id="bar-3"></div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div id="cover-event">
+        <img src="/media/cover-event.png" srcset="/media/cover-event@2x.png 2x, /media/cover-event@3x.png 3x" alt="People at concert">
+      </div>
+
+      <header>
+        <div id="header-text">
+          <h1><span class="highlight no-highlight">Pre-register to live stream your event on Soundmix</span></h1>
+
+          <p><span class="highlight no-highlight">For now, we are in a Beta version and only preselected
+            events can stream on Soundmix. Pre-register your event and we’ll get back to you.</span></p>
+        </div>
+
+        <div id="header-form">
+          <form id="event-form">
+            <p>Pre-register</p>
+
+            <div class="form-control">
+              <input type="text" name="name" class="box" id="eventname" placeholder="Event Name"
+              required />
+            </div>
+
+            <div class="form-control">
+              <input type="text" name="date" class="box" id="eventdate" placeholder="Event date"
+              required autocomplete="off"/>
+            </div>
+
+            <div class="form-control">
+              <input type="text" name="contactPerson" class="box" id="contactperson"
+              placeholder="Contact person" required />
+            </div>
+
+            <div class="form-control">
+              <input type="email" name="email" class="box" id="eventemail" placeholder="Email address"
+              required />
+            </div>
+
+            <div class="form-control">
+              <input type="tel" name="tel" class="box" id="eventtel" placeholder="(optional) Phone" />
+            </div>
+
+            <div class="form-control">
+              <input type="text" name="country" class="box" id="eventcountry" placeholder="(optional) Country" />
+            </div>
+
+            <div class="form-control">
+              <input type="text" name="city" class="box" id="eventcity" placeholder="(optional) City" />
+            </div>
+
+            <div class="form-control">
+              <div id="checkbox">
+                <input type="checkbox" name="terms" id="terms" required />
+
+                <span for="terms">
+                  I agree with
+                  <a href="/Soundmix-Terms.pdf" target="_blank">Terms of Use</a>
+                  and
+                  <a href="/Soundmix-Privacy-Policy.pdf" target="_blank">Privacy Policy</a>
+                </span>
+              </div>
+            </div>
+
+            <button id="eventsignup">Pre-register</button>
+          </form>
+        </div>
+      </header>
+
+      <section id="benefits">
+        <div>
+          <span id="icon-monetize"></span>
+
+          <h2>Monetize online views</h2>
+
+          <p>We bet you always thought about ways to monetize the online views of your event, but you never
+            had a turn key solution for all your needs. Now you got one with Soundmix, where you can sell
+            digital tickets and expand your reach and event sales.</p>
+        </div>
+
+        <div>
+          <span id="icon-audience"></span>
+
+          <h2>Expand audience</h2>
+
+          <p>Live stream your event to a global audience, reach more fans that you would normally do and
+            expand your sales easily.</p>
+        </div>
+
+        <div>
+          <span id="icon-copyright"></span>
+
+          <h2>Music copyright clearance</h2>
+
+          <p>We’ll handle everything related to clearance of copyrights for the music you're streaming.
+            Now you can focus on just making your shows greater and more engaging.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div id="footer-download">
+        <h4>Download Soundmix Beta Apps</h4>
+
+        <div class="store-icons">
+          <a class="app-store" href="https://itunes.apple.com/us/app/soundmix-app/id1439041185?ls=1&mt=8" target="_blank"></a>
+          <a class="google-play" href="https://play.google.com/store/apps/details?id=live.soundmix" target="_blank"></a>
+        </div>
+      </div>
+
+      <div id="footer-info">
+        <div id="footer-copyright">
+          © 2019 Soundmix. All rights reserved.
+        </div>
+
+        <div id="footer-right">
+          <div id="footer-links">
+            <ul>
+              <li><a href="/jobs#team">About</a></li>
+              <li><a href="#" target="_blank">Terms & Conditions</a></li>
+              <li><a href="#" target="_blank">Privacy Policy</a></li>
+              <li><a href="/jobs">Join our team!</a></li>
+            </ul>
+          </div>
+
+          <div id="social-icons">
+            <a id="linkedin" href="https://www.linkedin.com/company/soundmixlive" target="_blank"></a>
+            <a id="facebook" href="https://www.facebook.com/soundmix.livemusic/" target="_blank"></a>
+            <a id="twitter" href="https://twitter.com/soundmix_live" target="_blank"></a>
+            <a id="instagram" href="https://www.instagram.com/soundmix.livemusic/" target="_blank"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <link href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+    <script>
+      const menu = document.getElementById("menu-items")
+
+      function navDropdown(x) {
+        x.classList.toggle("change");
+
+        if (menu.style.display == "" || menu.style.display == "none") {
+          menu.style.display = "block";
+        } else {
+          menu.style.display = "none";
+        }
+      }
+
+
+      $( function() {
+        $( "#eventdate" ).datepicker({ dateFormat: "dd-mm-yy" } );
+      } );
+   </script>
+  </body>
+</html>
